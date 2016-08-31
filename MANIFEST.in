@@ -3,6 +3,7 @@ graft examples
 include *.ini *.md *.py *.rst *.txt LICENSE
 recursive-include soapfish/raw *
 recursive-include soapfish *.py *.xml *.xsd *.wsdl
+recursive-include soapfish/templates *.py *.xml *.xsd *.wsdl
 recursive-include tests *.py *.xml *.xsd *.wsdl
 prune docs/_build
 prune soapfish.egg-info
